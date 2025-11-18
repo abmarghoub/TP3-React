@@ -4,6 +4,7 @@ import Accueil from './Accueil';
 import Apropos from './Apropos';
 import Connexion from './Connexion';
 import Contact from './Contact';
+import Notifications from './Notifications';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Link to="/contact">Contact</Link>
       </nav>
       <Connexion />
+      <Notifications />
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/apropos" element={<Apropos />} />
